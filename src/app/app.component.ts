@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  public count: number;
   title = 'ng-insta';
+
+  countListener = (val:number) => this.count = val;
 }
