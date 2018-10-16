@@ -6,9 +6,10 @@ nav ul {
 nav ul li a {
     padding: 1em 2em;
     text-decoration: none;
+    color: #FFFFF8;
 
 }
 
 nav ul li a:hover {
-    color: #fff;
+    color: #EB3E4A;
 }

@@ -1,5 +1,6 @@
 <div>
   <header>
-    <ng-header></ng-header>
+    <ng-header [peopleCount] = "count"></ng-header>
+    <app-grid (count) = "countListener($event)"></app-grid>
   </header>
 </div>
